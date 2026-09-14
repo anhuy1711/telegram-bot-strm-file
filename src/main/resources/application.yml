@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: movie
+
+server:
+  port: ${PORT:8080}
+
+telegram:
+  bot:
+    username: MovieScouttBot
+    token: ${TELEGRAM_BOT_TOKEN}
+
+tmdb:
+  api-token: ${TMDB_API_TOKEN}
